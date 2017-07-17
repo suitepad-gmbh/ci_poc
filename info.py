@@ -6,4 +6,4 @@ Author: Rajat Gupta
 Description:
 """
 
-print "Reached stage 1"
+print "Reached stage 2"
