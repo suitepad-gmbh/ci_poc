@@ -6,4 +6,4 @@ Author: Rajat Gupta
 Description:
 """
 
-print "Under construction."
+print "Reached stage 1"
