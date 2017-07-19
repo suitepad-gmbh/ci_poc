@@ -16,5 +16,9 @@ def info():
 def secret():
     return 'This is secret page.'
 
+@app.route('/secre-info')
+def secret():
+    return 'This is demo to mario.'
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
