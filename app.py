@@ -12,5 +12,9 @@ def hello_world():
 def info():
     return 'This is info page.'
 
+@app.route('/secret')
+def info():
+    return 'This is secret page.'
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
